@@ -7,4 +7,5 @@ streamlit
 streamlit-option-menu
 tensorflow
 split-folders
+category-encoders
 
