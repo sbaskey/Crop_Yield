@@ -55,8 +55,8 @@ soil_data = [
     'Mn - Sufficient', 'Mn - Deficient'
 ]
 # File paths for CSV files
-CSV_FILE_PATH = "odisha_dataset_DNN.csv"  # Main dataset file
-OTHER_CSV_FILE_PATH = "soil_data.csv"  # Secondary dataset file
+CSV_FILE_PATH = "https://github.com/sbaskey/Crop_Yield/blob/master/dnn/odisha_dataset_DNN.csv"  # Main dataset file
+OTHER_CSV_FILE_PATH = "https://github.com/sbaskey/Crop_Yield/blob/master/dnn/soil_data.csv"  # Secondary dataset file
 
 # Predefined values for sowing and harvesting
 months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
