@@ -74,7 +74,7 @@ def main():
 
     # Load the main dataset
     try:
-        df = pd.read_csv(CSV_FILE_PATH,sep=',')
+        df = pd.read_csv(CSV_FILE_PATH,on_bad_lines='skip')
         df=df.dropna()
     except Exception as e:
         st.error(f"Error loading the dataset: {e}")
@@ -197,7 +197,7 @@ def main():
                 
                 # Load the secondary dataset
                 try:
-                    other_df = pd.read_csv(OTHER_CSV_FILE_PATH,sep=',')
+                    other_df = pd.read_csv(OTHER_CSV_FILE_PATH,on_bad_lines='skip')
                     other_df=other_df[soil_data]
                     other_df = other_df.iloc[matched_index:matched_index+1]
 
