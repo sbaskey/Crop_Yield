@@ -234,7 +234,7 @@ def main():
                     # st.write('shape of combined')
                     # st.write(combined_df.shape)
 
-                    with open('training_columns.json', 'r') as file:
+                    with open('https://raw.githubusercontent.com/sbaskey/Crop_Yield/refs/heads/master/dnn/training_columns.json', 'r') as file:
                         training_columns = json.load(file)
                     for col in combined_df:
                         if col not in training_columns:
