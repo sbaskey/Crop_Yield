@@ -247,7 +247,7 @@ def main():
                     # st.write(combined_df.columns)
                     # st.write(combined_df)
                     # st.write(len(training_columns))
-                    model_path = 'new_model.h5'
+                    model_path = 'https://github.com/sbaskey/Crop_Yield/blob/master/dnn/new_model.h5'
 
                     # doing scaling of features
                     # print(len(num_columns))
